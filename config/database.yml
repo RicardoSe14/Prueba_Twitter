@@ -83,4 +83,5 @@ production:
   <<: *default
   database: twitter_production
   username: Inforcap
+  secret_key_base: Admin1234
   password: Admin1234
