@@ -4,6 +4,8 @@ Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
+  config.secret_key_base = 'blipblapblup'
+  
   config.cache_classes = true
 
   # Eager load code on boot. This eager loads most of Rails and
@@ -87,7 +89,7 @@ Rails.application.configure do
     logger.formatter = config.log_formatter
     config.logger    = ActiveSupport::TaggedLogging.new(logger)
   end
-  config.secret_key_base = ENV['SECRET_KEY_BASE']
+  
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 end
