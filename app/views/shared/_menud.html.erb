@@ -1,0 +1,95 @@
+
+<div class= "py-4">
+<%= form_with url: "/tweets", method: :get do |form|%>
+<div>
+ <%= form.text_field :query_text, placeholder: "🔍︎ Buscar en Twitter", value: params[:query_text], class:"busqueda container-fluid"%>
+<%end%>
+</div>
+</div>
+
+<div>
+<h2 class="titulo">Santiago Trends</h2>
+<hr>
+<ul>
+<li>1 - Trending</li>
+<li class="hash">#DesafioLatam</li>
+<li>44K Tweets</li>
+<hr>
+<li>2 - Trending</li>
+<li class="hash">#ColoColo</li>
+<li>30K Tweets</li>
+<hr>
+<li>3 - Trending</li>
+<li class="hash">#Latierraesplana</li>
+<li>12K Tweets</li>
+<hr>
+<li>4 - Trending</li>
+<li class="hash"> #Lalunaesdequeso</li>
+<li>9.2K Tweets</li>
+<hr>
+<li>5 - Trending</li>
+<li class="hash">#elmañanaeshoy</li>
+<li>8.3K Tweets</li>
+</ul>
+</div>
+
+<div>
+<h2 class="titulo pt-5"> ¿A quien Seguir?</h2>
+<hr>
+<div class="row ps-3">
+    <p class="col-auto p-0">
+        <a href="#" class="align-middle px-0">
+        <img src="https://github.com/mdo.png" alt="hugenerd" width="50" height="50" class="rounded-circle">
+        </a>
+    </p>
+    <div class="col-auto">
+    <p class="m-0 pt-1" id="usuario3">
+    Camilo Herrera
+    </p>
+    <p class="plomo">
+    @camih
+    </p>
+    </div>
+    <div class="col-auto ms-auto pt-2">
+    <button type="button" class="btn btn-outline-primary">Seguir</button>
+    </div>
+    <hr>
+</div>
+<div class="row ps-3">
+    <p class="col-auto p-0">
+        <a href="#" class="align-middle px-0">
+        <img src="https://i.discogs.com/2rmeHp16qfs8riIL2OKyl00_RliREf1nanlJmlZEvFU/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk2Mzcw/MDYtMTQ4Mzk5Nzgy/OS05ODQ4LmpwZWc.jpeg" alt="hugenerd" width="50" height="50" class="rounded-circle">
+        </a>
+    </p>
+    <div class="col-auto">
+    <p class="m-0 pt-1" id="usuario3">
+    Mercedes Sosa
+    </p>
+    <p class="plomo">
+    @Mersosa
+    </p>
+    </div>
+    <div class="col-auto ms-auto pt-2">
+    <button type="button" class="btn btn-outline-primary">Seguir</button> 
+    </div>
+    <hr>
+</div>
+<div class="row ps-3">
+    <p class="col-auto p-0">
+        <a href="#" class="align-middle px-0">
+        <img src="https://www.canal9.cl/wp-content/uploads/2023/05/11.jpeg" alt="hugenerd" width="50" height="50" class="rounded-circle">
+        </a>
+    </p>
+    <div class="col-auto">
+    <p class="m-0 pt-1" id="usuario3">
+    Chayanne
+    </p>
+    <p class="plomo">
+    @ChayanneOficial
+    </p>
+    </div>
+    <div class="col-auto ms-auto pt-2">
+    <button type="button" class="btn btn-outline-primary">Seguir</button>
+    </div>
+    <hr>
+</div>

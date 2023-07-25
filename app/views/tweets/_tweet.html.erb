@@ -1,0 +1,22 @@
+<div id="<%= dom_id tweet %>">
+
+
+<div class="row">
+  <p id="usuario" class="col-auto">
+    <strong></strong>
+    <%= link_to tweet.UserName, tweet %>    
+     </p>
+    <p id="usuario2" class="col-auto">
+    <%= "@#{tweet.UserName}"%>
+  </p>
+</div>
+
+  
+  <p id="tweet" class="pb-4">
+    <strong></strong>
+    <%= tweet.description %>
+  </p>
+
+
+
+</div>

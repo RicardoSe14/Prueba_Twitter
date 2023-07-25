@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<h2 class="pb-3 titulo">Inicio</h2>
+<hr>
+
+<div id="tweets">
+  <% @tweets.each do |tweet| %>
+    <%= render tweet %>
+  <% end %>
+</div>
